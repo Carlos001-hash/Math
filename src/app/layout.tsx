@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+<<<<<<< HEAD
+=======
+import { Analytics } from "@vercel/analytics/react"
+>>>>>>> e66542b (Alterado o layout.tsx)
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,6 +32,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+<<<<<<< HEAD
+=======
+        <Analytics/>
+>>>>>>> e66542b (Alterado o layout.tsx)
       </body>
     </html>
   );
